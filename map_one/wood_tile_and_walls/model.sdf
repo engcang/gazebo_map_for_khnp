@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+<model name='wood_tile_and_walls'>
+<static>true</static>
+<link name="link">
+   <pose frame=''>0 0 0.01 0 0 0</pose>
+   <collision name='wood_tile_and_wallsC'>
+    <geometry>
+      <mesh>
+        <scale>1.0 1.0 1.0</scale>
+        <uri>model://wood_tile_and_walls/model.dae</uri>
+      </mesh>
+    </geometry>
+  </collision>
+  <visual name='wood_tile_and_wallsV'>
+    <geometry>
+      <mesh>
+        <scale>1.0 1.0 1.0</scale>
+        <uri>model://wood_tile_and_walls/model.dae</uri>
+      </mesh>
+    </geometry>
+    <material>
+      <script>
+        <name>wood_tile_and_walls</name>
+        <uri>model://wood_tile_and_walls/model.dae</uri>
+      </script>
+    </material>
+  </visual>
+</link>
+</model>
+</sdf>
