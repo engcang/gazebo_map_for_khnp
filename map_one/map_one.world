@@ -43,19 +43,69 @@
     <include>
       <uri>model://sun_2</uri>
     </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://first_start</uri>
+    </include>
 
     <include>
       <uri>model://wood_tile_and_walls</uri>
     </include>
+    <include>
+      <uri>model://roof_first</uri>
+    </include>
 
     <include>
-      <static>true</static>
-      <pose>3.85 0.02 0.03 0 0 -1.5708</pose>
+      <name>s1</name>
+      <pose>4.45 0.00 0.03 0 0 -1.5708</pose>
       <uri>model://start_line</uri>
     </include>
     <include>
-      <static>true</static>
-      <pose>5.0 -9.98 0.03 0 0 -1.5708</pose>
+      <name>s2</name>
+      <pose>9.45 -10.0 0.03 0 0 -1.5708</pose>
+      <uri>model://start_line</uri>
+    </include>
+    <include>
+      <name>s3</name>
+      <pose>14.45 -3.0 0.03 0 0 -1.5708</pose>
+      <uri>model://start_line</uri>
+    </include>
+    <include>
+      <name>s4</name>
+      <pose>19.45 -8.0 0.03 0 0 -1.5708</pose>
+      <uri>model://start_line</uri>
+    </include>
+    <include>
+      <name>s5</name>
+      <pose>24.45 -1.0 0.03 0 0 -1.5708</pose>
+      <uri>model://start_line</uri>
+    </include>
+
+    <include>
+      <name>f1</name>
+      <pose>4.45 -10.0 0.03 0 0 -1.5708</pose>
+      <uri>model://finish_line</uri>
+    </include>
+    <include>
+      <name>f2</name>
+      <pose>9.45 -3.0 0.03 0 0 -1.5708</pose>
+      <uri>model://finish_line</uri>
+    </include>
+    <include>
+      <name>f3</name>
+      <pose>14.45 -8.0 0.03 0 0 -1.5708</pose>
+      <uri>model://finish_line</uri>
+    </include>
+    <include>
+      <name>f4</name>
+      <pose>19.45 -1.0 0.03 0 0 -1.5708</pose>
+      <uri>model://finish_line</uri>
+    </include>
+    <include>
+      <name>f5</name>
+      <pose>24.45 -6.0 0.03 0 0 -1.5708</pose>
       <uri>model://finish_line</uri>
     </include>
 

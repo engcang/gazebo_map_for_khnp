@@ -4,15 +4,16 @@
 <static>true</static>
 <link name="link">
    <pose frame=''>0 0 0.01 0 0 0</pose>
-   <collision name='finishC'>
-    <geometry>
-      <mesh>
-        <scale>1.0 1.0 1.0</scale>
-        <uri>model://finish/model.dae</uri>
-      </mesh>
-    </geometry>
-  </collision>
+<!--   <collision name='finishC'>-->
+<!--    <geometry>-->
+<!--      <mesh>-->
+<!--        <scale>1.0 1.0 1.0</scale>-->
+<!--        <uri>model://finish/model.dae</uri>-->
+<!--      </mesh>-->
+<!--    </geometry>-->
+<!--  </collision>-->
   <visual name='finishV'>
+    <cast_shadows>false</cast_shadows>
     <geometry>
       <mesh>
         <scale>1.0 1.0 1.0</scale>

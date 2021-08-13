@@ -13,6 +13,7 @@
     </geometry>
   </collision>
   <visual name='wood_tileV'>
+    <cast_shadows>false</cast_shadows>
     <geometry>
       <mesh>
         <scale>1.0 1.0 1.0</scale>
