@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="corridor_map">
+
+    <include>
+      <uri>model://first_start</uri>
+    </include>
+
+    <include>
+      <uri>model://corridor_ground_topping</uri>
+    </include>
+    <include>
+      <uri>model://roof_first</uri>
+    </include>
+    <include>
+      <uri>model://corridor_walls</uri>
+    </include>
+
+
+    <include>
+      <name>s1</name>
+      <pose>4.45 0.00 0.03 0 0 -1.5708</pose>
+      <uri>model://start_line</uri>
+    </include>
+    <include>
+      <name>s2</name>
+      <pose>9.45 -10.0 0.03 0 0 -1.5708</pose>
+      <uri>model://start_line</uri>
+    </include>
+    <include>
+      <name>s3</name>
+      <pose>14.45 -3.0 0.03 0 0 -1.5708</pose>
+      <uri>model://start_line</uri>
+    </include>
+    <include>
+      <name>s4</name>
+      <pose>19.45 -8.0 0.03 0 0 -1.5708</pose>
+      <uri>model://start_line</uri>
+    </include>
+    <include>
+      <name>s5</name>
+      <pose>24.45 -1.0 0.03 0 0 -1.5708</pose>
+      <uri>model://start_line</uri>
+    </include>
+
+    <include>
+      <name>f1</name>
+      <pose>4.45 -10.0 0.03 0 0 -1.5708</pose>
+      <uri>model://finish_line</uri>
+    </include>
+    <include>
+      <name>f2</name>
+      <pose>9.45 -3.0 0.03 0 0 -1.5708</pose>
+      <uri>model://finish_line</uri>
+    </include>
+    <include>
+      <name>f3</name>
+      <pose>14.45 -8.0 0.03 0 0 -1.5708</pose>
+      <uri>model://finish_line</uri>
+    </include>
+    <include>
+      <name>f4</name>
+      <pose>19.45 -1.0 0.03 0 0 -1.5708</pose>
+      <uri>model://finish_line</uri>
+    </include>
+    <include>
+      <name>f5</name>
+      <pose>24.45 -6.0 0.03 0 0 -1.5708</pose>
+      <uri>model://finish_line</uri>
+    </include>
+
+  </model>
+</sdf>
