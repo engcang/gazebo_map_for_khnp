@@ -13,7 +13,7 @@
       <uri>model://roof_first</uri>
     </include>
     <include>
-      <uri>model://corridor_walls</uri>
+      <uri>model://cwalls</uri>
     </include>
 
 

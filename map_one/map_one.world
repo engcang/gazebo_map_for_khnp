@@ -12,7 +12,7 @@
           <speed>3</speed>
         </clouds>
       </sky>
-      <ambient>0.75 0.75 0.75 1</ambient>
+      <ambient>0.6 0.6 0.6 1</ambient>
       <background>0.5 0.5 0.5 1</background>
       <shadows>0</shadows>
     </scene>
@@ -30,6 +30,10 @@
     </include>
 
 
+    <include>
+      <pose>-3 0 0 0 0 0</pose>
+      <uri>model://dbrick_stack</uri>
+    </include>
 
 
   </world>
