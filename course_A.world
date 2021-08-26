@@ -26,11 +26,6 @@
       <uri>model://ground_plane</uri>
     </include>
 
-    <include>
-      <pose>0 0 2 0 0 0</pose>
-      <uri>model://third_camera</uri>
-    </include>
-
     <!-- map one-->
     <include>
       <uri>model://corridor_map</uri>

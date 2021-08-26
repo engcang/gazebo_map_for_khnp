@@ -4,6 +4,13 @@
   <static>true</static>
     <pose>0 0 0 0 0 0</pose>
     <link name="camera_link">
+<!--      <collision name="collision">-->
+<!--       <geometry>-->
+<!--          <box>-->
+<!--            <size>0.1 0.1 0.1</size>-->
+<!--          </box>-->
+<!--        </geometry>-->
+<!--      </collision>-->
 <!--      <visual name="visual">-->
 <!--        <cast_shadows>false</cast_shadows>-->
 <!--        <geometry>-->
