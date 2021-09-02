@@ -14,12 +14,12 @@
     </include>
     <include>
       <name>rline</name>
-      <pose>-0.575 0.25 0.02 0 0 1.5708</pose>
+      <pose>-0.575 0.25 0.001 0 0 1.5708</pose>
       <uri>model://redline_short</uri>
     </include>
     <include>
       <name>rline2</name>
-      <pose>0.575 0.25 0.02 0 0 1.5708</pose>
+      <pose>0.575 0.25 0.001 0 0 1.5708</pose>
       <uri>model://redline_short</uri>
     </include>
 

@@ -17,13 +17,13 @@
     <geometry>
       <mesh>
         <scale>1.0 1.0 1.0</scale>
-        <uri>model://finish_line_mini/model.dae</uri>
+        <uri>model://finish_line_mini/finish_line_mini.dae</uri>
       </mesh>
     </geometry>
     <material>
       <script>
         <name>finish_line_mini</name>
-        <uri>model://finish_line_mini/model.dae</uri>
+        <uri>model://finish_line_mini/finish_line_mini.dae</uri>
       </script>
     </material>
   </visual>

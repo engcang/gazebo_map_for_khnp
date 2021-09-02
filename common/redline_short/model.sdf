@@ -3,7 +3,7 @@
 <model name='redline_short'>
 <static>true</static>
 <link name="redline_short">
-   <pose frame=''>0 0 0.01 0 0 0</pose>
+   <pose frame=''>0 0 0 0 0 0</pose>
 <!--   <collision name='redlineC'>-->
 <!--    <geometry>-->
 <!--      <mesh>-->
@@ -17,13 +17,13 @@
     <geometry>
       <mesh>
         <scale>1.0 1.0 1.0</scale>
-        <uri>model://redline_short/redline_short.dae</uri>
+        <uri>model://redline_short/redline_short2.dae</uri>
       </mesh>
     </geometry>
     <material>
       <script>
         <name>start</name>
-        <uri>model://redline_short/redline_short.dae</uri>
+        <uri>model://redline_short/redline_short2.dae</uri>
       </script>
     </material>
   </visual>
