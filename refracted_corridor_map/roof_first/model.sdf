@@ -3,7 +3,7 @@
 <model name='roof_first'>
 <static>true</static>
 <link name="link">
-   <pose frame=''>0 0 0.01 0 0 0</pose>
+   <pose frame=''>0 0 -0.01 0 0 0</pose>
    <collision name='roof_firstC'>
     <geometry>
       <mesh>

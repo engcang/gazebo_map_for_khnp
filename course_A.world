@@ -65,7 +65,7 @@
     <!-- map three-->
     <include>
       <pose>36.1 -6.6 0 0 0 0</pose>
-      <uri>model://task2_whole</uri>
+      <uri>model://task2_whole_new</uri>
     </include>
     <include>
       <pose>54.1 -5.95 0.6 0 0 0</pose>

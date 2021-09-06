@@ -3,7 +3,7 @@
 <model name='corridor_ground_topping'>
 <static>true</static>
 <link name="link">
-   <pose frame=''>0 0 0.01 0 0 0</pose>
+   <pose frame=''>0 0 0 0 0 0</pose>
    <collision name='corridor_ground_toppingC'>
     <geometry>
       <mesh>

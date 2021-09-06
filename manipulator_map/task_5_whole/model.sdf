@@ -48,5 +48,10 @@
     </include>
 
 
+    <include>
+      <pose>4.6 0 -0.02 0 0 0</pose>
+      <uri>model://indoorfloor_3.4m</uri>
+    </include>
+
   </model>
 </sdf>

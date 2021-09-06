@@ -1,21 +1,22 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="new_stairs">
-    <pose>0 0 0 0 0 0</pose>
+  <model name="hill">
+    <static>true</static>
+    <pose>0 0 0 0 0 1.57</pose>
     <link name="link">
-      <collision name="new_stairsC">
+      <collision name="hillC">
         <geometry>
           <mesh>
-            <uri>model://new_stairs/model2.dae</uri>
+            <uri>model://hill/hill.dae</uri>
             <scale>1.0 1.0 1.0</scale>
           </mesh>
         </geometry>
       </collision>
-      <visual name="new_stairsV">
-        <cast_shadows>false</cast_shadows>
+      <visual name="hillV">
+        <cast_shadows>true</cast_shadows>
         <geometry>
           <mesh>
-            <uri>model://new_stairs/model2.dae</uri>
+            <uri>model://hill/hill.dae</uri>
             <scale>1.0 1.0 1.0</scale>
           </mesh>
         </geometry>

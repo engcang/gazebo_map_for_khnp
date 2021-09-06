@@ -23,7 +23,7 @@
     </include>
 
     <include>
-      <uri>model://task2_whole</uri>
+      <uri>model://task2_whole_new</uri>
     </include>
 
 
