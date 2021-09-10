@@ -7,7 +7,7 @@
         <geometry>
           <mesh>
             <uri>model://narrow_stairs/sta.dae</uri>
-            <scale>1.0 1.0 1.0</scale>
+            <scale>1.0 1.0 0.7</scale>
           </mesh>
         </geometry>
       </collision>
@@ -16,7 +16,7 @@
         <geometry>
           <mesh>
             <uri>model://narrow_stairs/sta.dae</uri>
-            <scale>1.0 1.0 1.0</scale>
+            <scale>1.0 1.0 0.7</scale>
           </mesh>
         </geometry>
       </visual>

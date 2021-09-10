@@ -10,7 +10,7 @@
     
     <include>
       <name>hill</name>
-      <pose>4.25 0.6 0 0 0 1.57</pose>
+      <pose>4.35 0.6 0 0 0 1.57</pose>
       <uri>model://hill</uri>
     </include>
 

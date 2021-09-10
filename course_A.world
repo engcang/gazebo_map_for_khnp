@@ -112,15 +112,15 @@
 
     <include>
       <name>finish_floor</name>
-      <pose>82 -5.2 4.24 0 0 0</pose>
+      <pose>82 -5.2 2.968 0 0 0</pose>
       <uri>model://floor_6m2</uri>
     </include>
     <include>
-      <pose>84.8 -5.2 4.24 0 0 3.141592</pose>
+      <pose>84.8 -5.2 2.968 0 0 3.141592</pose>
       <uri>model://last_finish</uri>
     </include>
     <include>
-      <pose>86.55 -4.68 4.65 0 1.5708 0</pose>
+      <pose>86.55 -4.68 3.388 0 1.5708 0</pose>
       <uri>model://finish_0_false</uri>
     </include>
 

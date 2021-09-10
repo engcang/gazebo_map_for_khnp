@@ -7,7 +7,7 @@
       <collision name="hillC">
         <geometry>
           <mesh>
-            <uri>model://hill/hill.dae</uri>
+            <uri>model://hill/new_hill.dae</uri>
             <scale>1.0 1.0 1.0</scale>
           </mesh>
         </geometry>
@@ -16,7 +16,7 @@
         <cast_shadows>true</cast_shadows>
         <geometry>
           <mesh>
-            <uri>model://hill/hill.dae</uri>
+            <uri>model://hill/new_hill.dae</uri>
             <scale>1.0 1.0 1.0</scale>
           </mesh>
         </geometry>
