@@ -8,7 +8,7 @@
     <geometry>
       <mesh>
         <scale>1.0 1.0 1.0</scale>
-        <uri>model://corridor_ground_topping/model.dae</uri>
+        <uri>model://corridor_ground_topping/coll.stl</uri>
       </mesh>
     </geometry>
   </collision>
