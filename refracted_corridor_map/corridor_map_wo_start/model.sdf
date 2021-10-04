@@ -60,9 +60,9 @@
     <include>
       <uri>model://roof_first</uri>
     </include>
-    <include>
-      <uri>model://cwalls</uri>
-    </include>
+<!--    <include>-->
+<!--      <uri>model://cwalls</uri>-->
+<!--    </include>-->
     <include>
       <uri>model://corridor_walls</uri>
     </include>

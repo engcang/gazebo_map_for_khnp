@@ -30,11 +30,5 @@
     </include>
 
 
-    <include>
-      <pose>-3 0 0 0 0 0</pose>
-      <uri>model://dbrick_stack</uri>
-    </include>
-
-
   </world>
 </sdf>
