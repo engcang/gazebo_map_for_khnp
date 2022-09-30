@@ -7,10 +7,10 @@ material vrc/concrete_ground
 		{
 			texture_unit
 			{
-				texture cc.jpg
+				texture asphalt.png
 				filtering anistropic
 				max_anisotropy 16
-				scale 0.1 0.1
+				scale 0.3 0.3
 			}
 		}
 	}
