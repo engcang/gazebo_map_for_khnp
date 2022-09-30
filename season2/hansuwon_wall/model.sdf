@@ -4,77 +4,58 @@
 
     <include>
       <name>w1</name>
-      <pose>-2.25 0 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
+      <pose>0 0 0 0 0 1.5708</pose>
+      <uri>model://wall_unit_3m</uri>
     </include>
     <include>
       <name>w2</name>
-      <pose>-2.25 3 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
+      <pose>0 3 0 0 0 1.5708</pose>
+      <uri>model://wall_unit_3m</uri>
     </include>
     <include>
       <name>w3</name>
-      <pose>-2.25 6 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
+      <pose>0 6 0 0 0 1.5708</pose>
+      <uri>model://wall_unit_3m</uri>
     </include>
     <include>
       <name>w4</name>
-      <pose>-2.25 9 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
+      <pose>0 9 0 0 0 1.5708</pose>
+      <uri>model://wall_unit_3m</uri>
     </include>
     <include>
       <name>w5</name>
-      <pose>-2.25 12 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
-    </include>
-    <include>
-      <name>w6</name>
-      <pose>-2.25 15 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
-    </include>
-    <include>
-      <name>w7</name>
-      <pose>-2.25 18 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
+      <pose>0 12 0 0 0 1.5708</pose>
+      <uri>model://wall_unit_3m</uri>
     </include>
 
 
 
     <include>
       <name>w10</name>
-      <pose>2.25 0 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
+      <pose>1.3 0 0 0 0 1.5708</pose>
+      <uri>model://wall_unit_3m</uri>
     </include>
     <include>
       <name>w11</name>
-      <pose>2.25 3 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
+      <pose>1.3 3 0 0 0 1.5708</pose>
+      <uri>model://wall_unit_3m</uri>
     </include>
     <include>
       <name>w12</name>
-      <pose>2.25 6 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
+      <pose>1.3 6 0 0 0 1.5708</pose>
+      <uri>model://wall_unit_3m</uri>
     </include>
     <include>
       <name>w13</name>
-      <pose>2.25 9 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
+      <pose>1.3 9 0 0 0 1.5708</pose>
+      <uri>model://wall_unit_3m</uri>
     </include>
     <include>
       <name>w14</name>
-      <pose>2.25 12 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
+      <pose>1.3 12 0 0 0 1.5708</pose>
+      <uri>model://wall_unit_3m</uri>
     </include>
-    <include>
-      <name>w15</name>
-      <pose>2.25 15 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
-    </include>
-    <include>
-      <name>w16</name>
-      <pose>2.25 18 0 0 0 1.5708</pose>
-      <uri>model://3m_wall</uri>
-    </include>
+
 
   </model>
 </sdf>
