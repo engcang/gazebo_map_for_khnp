@@ -1,0 +1,17 @@
+material vrc/concrete_ground
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cc.jpg
+				filtering anistropic
+				max_anisotropy 16
+				scale 0.1 0.1
+			}
+		}
+	}
+}
