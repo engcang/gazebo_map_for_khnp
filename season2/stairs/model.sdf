@@ -6,7 +6,7 @@
       <collision name="narrow_stairsC">
         <geometry>
           <mesh>
-            <uri>model://narrow_stairs/sta.dae</uri>
+            <uri>model://stairs/sta.dae</uri>
             <scale>1.8 1.5 1.9</scale>
           </mesh>
         </geometry>
@@ -15,7 +15,7 @@
         <cast_shadows>true</cast_shadows>
         <geometry>
           <mesh>
-            <uri>model://narrow_stairs/sta.dae</uri>
+            <uri>model://stairs/sta.dae</uri>
             <scale>1.8 1.5 1.9</scale>
           </mesh>
         </geometry>
