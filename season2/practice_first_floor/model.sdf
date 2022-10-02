@@ -2,6 +2,13 @@
 <sdf version="1.5">
   <model name="practice_first_floor">
 
+<!-- ground -->
+    <include>
+      <name>ground</name>
+      <pose>8.8 8.8 0 0 0 0</pose>
+      <uri>model://concrete_ground</uri>
+    </include>
+
 <!-- r1 -->
     <include>
       <name>r1_0</name>
@@ -841,6 +848,43 @@
       <name>WayPoint5</name>
       <pose>4.85 0.8 1.25 0 0 1.57</pose>
       <uri>model://WayPoint5</uri>
+    </include>
+
+
+
+<!-- bricks -->
+    <include>
+      <name>brick1</name>
+      <pose>16.8 3 0 0 0 1.57</pose>
+      <uri>model://dbrick_static</uri>
+    </include>
+    <include>
+      <name>brick2</name>
+      <pose>17 3.5 0 0 0 1.57</pose>
+      <uri>model://dbrick_static</uri>
+    </include>
+
+    <include>
+      <name>brick3</name>
+      <pose>0.6 3 0 0 0 1.57</pose>
+      <uri>model://dbrick_static</uri>
+    </include>
+    <include>
+      <name>brick4</name>
+      <pose>0.8 3.5 0 0 0 1.57</pose>
+      <uri>model://dbrick_static</uri>
+    </include>
+
+
+    <include>
+      <name>brick5</name>
+      <pose>12.5 16.8 0 0 0 0</pose>
+      <uri>model://dbrick_static</uri>
+    </include>
+    <include>
+      <name>brick6</name>
+      <pose>12 17 0 0 0 0</pose>
+      <uri>model://dbrick_static</uri>
     </include>
 
   </model>
