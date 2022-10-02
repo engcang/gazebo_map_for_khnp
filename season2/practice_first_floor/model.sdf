@@ -811,5 +811,37 @@
       <uri>model://wall_obstacleB</uri>
     </include>
 
+
+<!-- waypoints -->
+    <include>
+      <name>WayPoint1</name>
+      <pose>13.6 0.05 1.25 0 0 0</pose>
+      <uri>model://WayPoint1</uri>
+    </include>
+
+    <include>
+      <name>WayPoint2</name>
+      <pose>13.6 12.85 1.25 0 0 0</pose>
+      <uri>model://WayPoint2</uri>
+    </include>
+
+    <include>
+      <name>WayPoint3</name>
+      <pose>7.95 16.8 1.25 0 0 1.57</pose>
+      <uri>model://WayPoint3</uri>
+    </include>
+
+    <include>
+      <name>WayPoint4</name>
+      <pose>3.25 7.2 1.25 0 0 1.57</pose>
+      <uri>model://WayPoint5</uri>
+    </include>
+
+    <include>
+      <name>WayPoint5</name>
+      <pose>4.85 0.8 1.25 0 0 1.57</pose>
+      <uri>model://WayPoint5</uri>
+    </include>
+
   </model>
 </sdf>
