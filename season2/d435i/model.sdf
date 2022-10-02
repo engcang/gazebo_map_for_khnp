@@ -46,12 +46,12 @@
           <noise>
             <type>gaussian</type>
             <mean>0.0</mean>
-            <stddev>0.05</stddev>
+            <stddev>0.25</stddev>
           </noise>
         </camera>
         <always_on>1</always_on>
         <visualize>1</visualize>
-        <update_rate>15</update_rate>
+        <update_rate>15.0</update_rate>
         <plugin name="camera_plugin" filename="libgazebo_ros_openni_kinect.so">
           <baseline>0.05</baseline>
           <alwaysOn>true</alwaysOn>
@@ -91,7 +91,7 @@
           <noise>
             <type>gaussian</type>
             <mean>0.0</mean>
-            <stddev>0.03</stddev>
+            <stddev>0.01</stddev>
           </noise>
         </camera>
         <camera name="right">
@@ -109,7 +109,7 @@
           <noise>
             <type>gaussian</type>
             <mean>0.0</mean>
-            <stddev>0.03</stddev>
+            <stddev>0.01</stddev>
           </noise>
         </camera>
         <always_on>1</always_on>
