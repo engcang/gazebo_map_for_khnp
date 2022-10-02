@@ -782,5 +782,48 @@
     </include>
 
 
+<!-- obstacles -->
+
+    <include>
+      <name>obsC1</name>
+      <pose>4 2.4 0 0 0 1.57</pose>
+      <uri>model://wall_obstacleC</uri>
+    </include>
+
+
+    <include>
+      <name>obsC2</name>
+      <pose>7.2 4 0 0 0 1.57</pose>
+      <uri>model://wall_obstacleC</uri>
+    </include>
+
+
+    <include>
+      <name>obsA3</name>
+      <pose>4 5.6 0 0 0 1.57</pose>
+      <uri>model://wall_obstacleA</uri>
+    </include>
+
+
+    <include>
+      <name>obsB4</name>
+      <pose>7.2 16.8 0 0 0 1.57</pose>
+      <uri>model://wall_obstacleB</uri>
+    </include>
+
+
+    <include>
+      <name>obsC5</name>
+      <pose>12 7.2 0 0 0 1.57</pose>
+      <uri>model://wall_obstacleC</uri>
+    </include>
+
+
+    <include>
+      <name>obsB6</name>
+      <pose>5.6 8.8 0 0 0 0</pose>
+      <uri>model://wall_obstacleB</uri>
+    </include>
+
   </model>
 </sdf>

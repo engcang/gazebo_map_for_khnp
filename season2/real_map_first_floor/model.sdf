@@ -184,36 +184,32 @@
 
 
 <!-- r6 -->
-    <include>
-      <name>r3_5</name>
-      <pose>4 8 0 0 0 0</pose>
+<include>
+      <name>r1_5</name>
+      <pose>0.8 8 0 0 0 0</pose>
       <uri>model://wall_unit_1_7</uri>
     </include>
     <include>
-      <name>r4_5</name>
-      <pose>5.6 8 0 0 0 0</pose>
+      <name>r2_5</name>
+      <pose>2.4 8 0 0 0 0</pose>
       <uri>model://wall_unit_1_7</uri>
     </include>
     <include>
-      <name>r5_5</name>
-      <pose>7.2 8 0 0 0 0</pose>
+      <name>r6_5</name>
+      <pose>8.8 8 0 0 0 0</pose>
       <uri>model://wall_unit_1_7</uri>
     </include>
     <include>
-      <name>r7_5</name>
-      <pose>10.4 8 0 0 0 0</pose>
+      <name>r8_5</name>
+      <pose>12 8 0 0 0 0</pose>
       <uri>model://wall_unit_1_7</uri>
     </include>
     <include>
-      <name>r10_5</name>
-      <pose>15.2 8 0 0 0 0</pose>
+      <name>r9_5</name>
+      <pose>13.6 8 0 0 0 0</pose>
       <uri>model://wall_unit_1_7</uri>
     </include>
-    <include>
-      <name>r11_5</name>
-      <pose>16.8 8 0 0 0 0</pose>
-      <uri>model://wall_unit_1_7</uri>
-    </include>
+
 
 
 <!-- r7 -->
@@ -785,6 +781,40 @@
       <uri>model://wall_unit_1_7</uri>
     </include>
 
+<!-- obstacles -->
+
+    <include>
+      <name>obsC1</name>
+      <pose>5.6 2.4 0 0 0 1.57</pose>
+      <uri>model://wall_obstacleC</uri>
+    </include>
+
+    <include>
+      <name>obsB2</name>
+      <pose>5.6 10.4 0 0 0 1.57</pose>
+      <uri>model://wall_obstacleB</uri>
+    </include>
+
+
+    <include>
+      <name>obsC3</name>
+      <pose>4 16.8 0 0 0 1.57</pose>
+      <uri>model://wall_obstacleC</uri>
+    </include>
+
+    <include>
+      <name>obsB4</name>
+      <pose>12 12 0 0 0 1.57</pose>
+      <uri>model://wall_obstacleB</uri>
+    </include>
+
+
+
+    <include>
+      <name>obsA5</name>
+      <pose>16.8 4 0 0 0 0</pose>
+      <uri>model://wall_obstacleA</uri>
+    </include>
 
   </model>
 </sdf>

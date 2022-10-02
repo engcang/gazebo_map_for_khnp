@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="practice_first_floor">
+  <model name="practice_second_floor">
 
 <!-- r1 -->
     <include>
@@ -783,32 +783,45 @@
       <uri>model://wall_unit_1_7</uri>
     </include>
 
-
 <!-- obstacles -->
+
     <include>
       <name>obsC1</name>
-      <pose>7.2 2.4 0 0 0 1.57</pose>
+      <pose>10.4 0.8 0 0 0 1.57</pose>
       <uri>model://wall_obstacleC</uri>
     </include>
 
     <include>
-      <name>obsA2</name>
-      <pose>7.2 8.6 0 0 0 0</pose>
+      <name>obsB2</name>
+      <pose>12 4 0 0 0 1.57</pose>
+      <uri>model://wall_obstacleB</uri>
+    </include>
+
+
+    <include>
+      <name>obsA3</name>
+      <pose>2.4 12 0 0 0 1.57</pose>
       <uri>model://wall_obstacleA</uri>
     </include>
 
 
     <include>
-      <name>obsB3</name>
-      <pose>2.4 12 0 0 0 1.57</pose>
+      <name>obsB4</name>
+      <pose>2.4 7.2 0 0 0 0</pose>
       <uri>model://wall_obstacleB</uri>
     </include>
 
 
     <include>
-      <name>obsB4</name>
-      <pose>13.6 10.4 0 0 0 1.57</pose>
+      <name>obsB5</name>
+      <pose>7.2 13.6 0 0 0 0</pose>
       <uri>model://wall_obstacleB</uri>
+    </include>
+
+    <include>
+      <name>obsA6</name>
+      <pose>12 13.6 0 0 0 0</pose>
+      <uri>model://wall_obstacleA</uri>
     </include>
 
   </model>
