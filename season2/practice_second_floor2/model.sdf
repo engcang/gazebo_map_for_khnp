@@ -232,7 +232,26 @@
       <pose>15.2 8 0 0 0 0</pose>
       <uri>model://wall_unit_1_7</uri>
     </include>
-
+    <include>
+      <name>r12_5</name>
+      <pose>18.4 8 0 0 0 0</pose>
+      <uri>model://wall_unit_1_7</uri>
+    </include>
+    <include>
+      <name>r13_5</name>
+      <pose>20 8 0 0 0 0</pose>
+      <uri>model://wall_unit_1_7</uri>
+    </include>
+    <include>
+      <name>r14_5</name>
+      <pose>18.4 7.9 0 0 0 0</pose>
+      <uri>model://wall_unit_1_7</uri>
+    </include>
+    <include>
+      <name>r15_5</name>
+      <pose>20 7.9 0 0 0 0</pose>
+      <uri>model://wall_unit_1_7</uri>
+    </include>
 
 <!-- r7 -->
     <include>
@@ -258,6 +277,26 @@
     <include>
       <name>r7_6</name>
       <pose>10.4 9.6 0 0 0 0</pose>
+      <uri>model://wall_unit_1_7</uri>
+    </include>
+    <include>
+      <name>r12_6</name>
+      <pose>18.4 9.6 0 0 0 0</pose>
+      <uri>model://wall_unit_1_7</uri>
+    </include>
+    <include>
+      <name>r13_6</name>
+      <pose>20 9.6 0 0 0 0</pose>
+      <uri>model://wall_unit_1_7</uri>
+    </include>
+    <include>
+      <name>r14_6</name>
+      <pose>18.4 9.7 0 0 0 0</pose>
+      <uri>model://wall_unit_1_7</uri>
+    </include>
+    <include>
+      <name>r15_6</name>
+      <pose>20 9.7 0 0 0 0</pose>
       <uri>model://wall_unit_1_7</uri>
     </include>
 

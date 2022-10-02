@@ -1,28 +1,28 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="concrete_ground">
+  <model name="FINISH_qr">
     <static>true</static>
     <link name="link">
-      <pose>0 0 0.01 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <collision name="collision">
         <geometry>
           <box>
-            <size>1.5 1.2 0.03</size>
+            <size>0.12 0.01 0.12</size>
           </box>
         </geometry>
       </collision>
       <visual name="visual">
-        <cast_shadows>false</cast_shadows>
+<!--        <cast_shadows>false</cast_shadows>-->
         <geometry>
           <box>
-            <size>1.5 1.2 0.03</size>
+            <size>0.12 0.01 0.12</size>
           </box>
         </geometry>
         <material>
           <script>
-            <uri>model://concrete_ground/materials/scripts</uri>
-            <uri>model://concrete_ground/materials/textures</uri>
-            <name>vrc/concrete_ground</name>
+            <uri>model://FINISH_qr/materials/scripts</uri>
+            <uri>model://FINISH_qr/materials/textures</uri>
+            <name>vrc/FINISH_qr</name>
           </script>
         </material>
       </visual>
