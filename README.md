@@ -11,11 +11,12 @@ $ git clone git@github.com:engcang/gazebo_map_for_khnp
 + Add Gazebo Path
 ~~~shell
 $ cd gazebo_map_for_khnp
-$ echo "export GAZEBO_MODEL_PATH=:$GAZEBO_MODEL_PATH:$(pwd)/refracted_corridor_map:$(pwd)/rough_terrain_map:$(pwd)/stair_map:$(pwd)/qr_codes:$(pwd)/manipulator_map:$(pwd)/disturbance_map:$(pwd)/common" >> ~/.bashrc
-$ . ~/.bashrc
-~~~
 
-+ Run Gazebo
-~~~shell
-$ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/course_A.world
+for season 1
+$ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/season1/refracted_corridor_map:$(pwd)/season1/rough_terrain_map:$(pwd)/season1/stair_map:$(pwd)/season1/qr_codes:$(pwd)/season1/manipulator_map:$(pwd)/season1/disturbance_map:$(pwd)/season1/common" >> ~/.bashrc
+
+for season 2
+$ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/season2" >> ~/.bashrc
+
+$ . ~/.bashrc
 ~~~
