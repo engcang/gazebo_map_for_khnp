@@ -2,8 +2,8 @@
 <sdf version='1.6'>
   <model name='wall_unit_1_7'>
     <pose frame=''>0 0 0 0 -0 0</pose>
-    <link name='Wall_45'>
-      <collision name='Wall_45_Collision'>
+    <link name='link'>
+      <collision name='collision'>
         <geometry>
           <box>
             <size>1.7 0.1 2.5</size>
@@ -11,7 +11,7 @@
         </geometry>
         <pose frame=''>0 0 1.25 0 -0 0</pose>
       </collision>
-      <visual name='Wall_45_Visual'>
+      <visual name='visual'>
         <pose frame=''>0 0 1.25 0 -0 0</pose>
         <geometry>
           <box>
@@ -20,16 +20,12 @@
         </geometry>
         <material>
           <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/CeilingTiled</name>
+            <uri>model://wall_unit_1_7/materials/scripts</uri>
+            <uri>model://wall_unit_1_7/materials/textures</uri>
+            <name>vrc/wall_unit_1_7</name>
           </script>
-          <ambient>1 1 1 1</ambient>
         </material>
-        <meta>
-          <layer>0</layer>
-        </meta>
       </visual>
-      <pose frame=''>0 0 0 0 -0 0</pose>
     </link>
     <static>1</static>
   </model>
