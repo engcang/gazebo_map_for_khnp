@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="landing">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>1</radius>
+            <length>1</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="visual">
+<!--        <cast_shadows>false</cast_shadows>-->
+        <geometry>
+          <cylinder>
+            <radius>1</radius>
+            <length>1</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://landing/materials/scripts</uri>
+            <uri>model://landing/materials/textures</uri>
+            <name>vrc/landing</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

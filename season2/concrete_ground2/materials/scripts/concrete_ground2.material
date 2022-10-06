@@ -1,4 +1,4 @@
-material vrc/concrete_ground
+material vrc/concrete_ground2
 {
 	receive_shadows off
 	technique
