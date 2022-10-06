@@ -8,7 +8,7 @@
     <geometry>
       <mesh>
         <scale>1.0 1.0 1.0</scale>
-        <uri>model://maze_roof_first/untitled.dae</uri>
+        <uri>model://maze_roof_first/untitled2.dae</uri>
       </mesh>
     </geometry>
   </collision>
@@ -17,7 +17,7 @@
     <geometry>
       <mesh>
         <scale>1.0 1.0 1.0</scale>
-        <uri>model://maze_roof_first/untitled.dae</uri>
+        <uri>model://maze_roof_first/untitled2.dae</uri>
       </mesh>
     </geometry>
   </visual>
