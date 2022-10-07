@@ -881,9 +881,21 @@
     </include>
 
     <include>
+      <name>landing_red</name>
+      <pose>4 4 0.03 0 0 0</pose>
+      <uri>model://landing_red</uri>
+    </include>
+
+    <include>
       <name>WayPoint7</name>
       <pose>12.75 2.4 1.25 0 0 1.57</pose>
       <uri>model://WayPoint7_prac2</uri>
+    </include>
+
+    <include>
+      <name>landing_yellow</name>
+      <pose>12 2.4 0.03 0 0 0</pose>
+      <uri>model://landing_yellow</uri>
     </include>
 
     <include>
@@ -893,15 +905,33 @@
     </include>
 
     <include>
+      <name>landing_green</name>
+      <pose>4 7.2 0.03 0 0 1.57</pose>
+      <uri>model://landing_green</uri>
+    </include>
+
+    <include>
       <name>WayPoint9</name>
       <pose>12 14.45 1.25 0 0 0</pose>
       <uri>model://WayPoint9_prac2</uri>
     </include>
 
     <include>
+      <name>landing_blue</name>
+      <pose>12 15.2 0.03 0 0 1.57</pose>
+      <uri>model://landing_blue</uri>
+    </include>
+
+    <include>
       <name>WayPoint10</name>
       <pose>9.55 12 1.25 0 0 1.57</pose>
       <uri>model://WayPoint10_prac2</uri>
+    </include>
+
+    <include>
+      <name>landing_purple</name>
+      <pose>8.8 12 0.03 0 0 0</pose>
+      <uri>model://landing_purple</uri>
     </include>
 
 
