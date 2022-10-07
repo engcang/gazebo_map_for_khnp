@@ -1,4 +1,4 @@
-material vrc/concrete_ground
+material vrc/landing_blue
 {
 	receive_shadows off
 	technique
@@ -7,10 +7,10 @@ material vrc/concrete_ground
 		{
 			texture_unit
 			{
-				texture asphalt.png
+				texture landing_blue.png
 				filtering anistropic
 				max_anisotropy 16
-				scale 0.3 0.3
+				scale 1 1 
 			}
 		}
 	}

@@ -657,6 +657,9 @@
       <uri>model://wall_unit_1_7</uri>
     </include>
 
+
+
+
 <!-- c8 -->
     <include>
       <name>c7_5</name>
@@ -865,9 +868,21 @@
     </include>
 
     <include>
+      <name>landing_red</name>
+      <pose>13.6 0.8 0.03 0 0 1.57</pose>
+      <uri>model://landing_red</uri>
+    </include>
+
+    <include>
       <name>WayPoint2</name>
       <pose>13.6 12.85 1.25 0 0 0</pose>
       <uri>model://WayPoint2_prac</uri>
+    </include>
+
+    <include>
+      <name>landing_yellow</name>
+      <pose>13.6 13.6 0.03 0 0 1.57</pose>
+      <uri>model://landing_yellow</uri>
     </include>
 
     <include>
@@ -877,9 +892,21 @@
     </include>
 
     <include>
+      <name>landing_green</name>
+      <pose>7.2 16.8 0.03 0 0 0</pose>
+      <uri>model://landing_green</uri>
+    </include>
+
+    <include>
       <name>WayPoint4</name>
       <pose>3.25 7.2 1.25 0 0 1.57</pose>
       <uri>model://WayPoint4_prac</uri>
+    </include>
+
+    <include>
+      <name>landing_blue</name>
+      <pose>4 7.2 0.03 0 0 0</pose>
+      <uri>model://landing_blue</uri>
     </include>
 
     <include>
@@ -888,6 +915,11 @@
       <uri>model://WayPoint5_prac</uri>
     </include>
 
+    <include>
+      <name>landing_purple</name>
+      <pose>5.6 0.8 0.03 0 0 0</pose>
+      <uri>model://landing_purple</uri>
+    </include>
 
 
 <!-- bricks -->
@@ -925,5 +957,109 @@
       <uri>model://dbrick_static</uri>
     </include>
 
+
+<!-- arrow -->
+    <include>
+      <name>arrow1</name>
+      <pose>9.65 7.6 1 0 0 -1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow2</name>
+      <pose>9.65 9.2 1 0 0 -1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow3</name>
+      <pose>9.65 10.8 1 0 0 -1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+    <include>
+      <name>arrow4</name>
+      <pose>11.15 7.6 1 0 0 -1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow5</name>
+      <pose>11.15 9.2 1 0 0 -1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow6</name>
+      <pose>11.15 10.8 1 0 0 -1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+
+    <include>
+      <name>arrow7</name>
+      <pose>9.8 0.05 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow8</name>
+      <pose>8.2 0.05 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow9</name>
+      <pose>6.6 0.05 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow10</name>
+      <pose>9.8 1.55 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <!--include>
+      <name>arrow11</name>
+      <pose>8.2 1.55 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include-->
+    <include>
+      <name>arrow12</name>
+      <pose>6.6 1.55 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+
+
+    <include>
+      <name>arrow13</name>
+      <pose>7.6 4.85 1 0 0 3.14</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow14</name>
+      <pose>6 4.85 1 0 0 3.14</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow15</name>
+      <pose>4.4 4.85 1 0 0 3.14</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow16</name>
+      <pose>7.6 6.35 1 0 0 3.14</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow17</name>
+      <pose>6 6.35 1 0 0 3.14</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow18</name>
+      <pose>4.4 6.35 1 0 0 3.14</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+    <include>
+      <name>top</name>
+      <pose>-0.8 -0.8 0 0 0 0</pose>
+      <uri>model://practice_first_top</uri>
+    </include>
   </model>
 </sdf>

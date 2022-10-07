@@ -879,9 +879,21 @@
     </include>
 
     <include>
+      <name>landing_red</name>
+      <pose>4 13.6 0.03 0 0 1.57</pose>
+      <uri>model://landing_red</uri>
+    </include>
+
+    <include>
       <name>WayPoint7</name>
       <pose>8.8 8.05 1.25 0 0 0</pose>
       <uri>model://WayPoint7_prac</uri>
+    </include>
+
+    <include>
+      <name>landing_yellow</name>
+      <pose>8.8 8.8 0.03 0 0 1.57</pose>
+      <uri>model://landing_yellow</uri>
     </include>
 
     <include>
@@ -891,15 +903,33 @@
     </include>
 
     <include>
+      <name>landing_green</name>
+      <pose>13.6 8.8 0.03 0 0 0</pose>
+      <uri>model://landing_green</uri>
+    </include>
+
+    <include>
       <name>WayPoint9</name>
       <pose>15.2 4.75 1.25 0 0 0</pose>
       <uri>model://WayPoint9_prac</uri>
     </include>
 
     <include>
+      <name>landing_blue</name>
+      <pose>15.2 4 0.03 0 0 1.57</pose>
+      <uri>model://landing_blue</uri>
+    </include>
+
+    <include>
       <name>WayPoint10</name>
       <pose>16.8 17.55 1.25 0 0 0</pose>
       <uri>model://WayPoint10_prac</uri>
+    </include>
+
+    <include>
+      <name>landing_purple</name>
+      <pose>16.8 16.8 0.03 0 0 1.57</pose>
+      <uri>model://landing_purple</uri>
     </include>
 
 
@@ -927,6 +957,126 @@
       <uri>model://dbrick_static</uri>
     </include>
 
+
+
+<!-- arrow -->
+    <include>
+      <name>arrow1</name>
+      <pose>0.05 1.9 1 0 0 1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow2</name>
+      <pose>0.05 3.5 1 0 0 1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow3</name>
+      <pose>0.05 5.1 1 0 0 1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+    <include>
+      <name>arrow4</name>
+      <pose>1.55 1.9 1 0 0 1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow5</name>
+      <pose>1.55 3.5 1 0 0 1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow6</name>
+      <pose>1.55 5.1 1 0 0 1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+
+    <include>
+      <name>arrow7</name>
+      <pose>16.05 1.9 1 0 0 1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow8</name>
+      <pose>16.05 3.5 1 0 0 1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+    <include>
+      <name>arrow9</name>
+      <pose>17.55 1.9 1 0 0 1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow10</name>
+      <pose>17.55 3.5 1 0 0 1.57</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+
+
+    <include>
+      <name>arrow13</name>
+      <pose>6.8 4.85 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow14</name>
+      <pose>5.2 4.85 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow15</name>
+      <pose>3.6 4.85 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow16</name>
+      <pose>6.8 6.35 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow17</name>
+      <pose>5.2 6.35 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow18</name>
+      <pose>3.6 6.35 1 0 0 0</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+
+    <include>
+      <name>arrow19</name>
+      <pose>14.1 16.05 1 0 0 3.14</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow20</name>
+      <pose>12.5 16.05 1 0 0 3.14</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+    <include>
+      <name>arrow21</name>
+      <pose>14.1 17.55 1 0 0 3.14</pose>
+      <uri>model://arrow</uri>
+    </include>
+    <include>
+      <name>arrow22</name>
+      <pose>12.5 17.55 1 0 0 3.14</pose>
+      <uri>model://arrow</uri>
+    </include>
+
+
+    <include>
+      <name>top</name>
+      <pose>-0.8 -0.8 0 0 0 0</pose>
+      <uri>model://practice_second_top</uri>
+    </include>
 
   </model>
 </sdf>
