@@ -1071,5 +1071,12 @@
       <uri>model://arrow</uri>
     </include>
 
+
+    <include>
+      <name>top</name>
+      <pose>-0.8 -0.8 0 0 0 0</pose>
+      <uri>model://practice_second_top</uri>
+    </include>
+
   </model>
 </sdf>
