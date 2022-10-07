@@ -33,7 +33,7 @@
 
     <include>
       <name>ground2</name>
-      <pose>18.2 8.8 0.05 0 0 1.57</pose>
+      <pose>18.1 8.8 0.05 0 0 1.57</pose>
       <scale>0.06 0.06 1</scale>
       <uri>model://concrete_ground2</uri>
     </include>
@@ -45,7 +45,7 @@
     </include>
     <include>
       <name>ground4</name>
-      <pose>20.2 8.8 0.05 0 0 1.57</pose>
+      <pose>20.3 8.8 0.05 0 0 1.57</pose>
       <scale>0.06 0.06 1</scale>
       <uri>model://concrete_ground2</uri>
     </include>
@@ -53,7 +53,7 @@
 
     <include>
       <name>ground5</name>
-      <pose>18.2 8.8 8.05 0 0 1.57</pose>
+      <pose>18.1 8.8 8.05 0 0 1.57</pose>
       <scale>0.06 0.06 1</scale>
       <uri>model://concrete_ground2</uri>
     </include>
@@ -65,7 +65,7 @@
     </include>
     <include>
       <name>ground7</name>
-      <pose>20.2 8.8 8.05 0 0 1.57</pose>
+      <pose>20.3 8.8 8.05 0 0 1.57</pose>
       <uri>model://concrete_ground2</uri>
     </include>
 
