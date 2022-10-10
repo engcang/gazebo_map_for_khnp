@@ -882,7 +882,7 @@
 
     <include>
       <name>landing_red</name>
-      <pose>4 4 0.03 0 0 0</pose>
+      <pose>3.4 4.725 0.03 0 0 -1.57</pose>
       <uri>model://landing_red</uri>
     </include>
 
@@ -894,7 +894,7 @@
 
     <include>
       <name>landing_yellow</name>
-      <pose>12 2.4 0.03 0 0 0</pose>
+      <pose>11.4 3.125 0.03 0 0 -1.57</pose>
       <uri>model://landing_yellow</uri>
     </include>
 
@@ -906,7 +906,7 @@
 
     <include>
       <name>landing_green</name>
-      <pose>4 7.2 0.03 0 0 1.57</pose>
+      <pose>4.725 7.8 0.03 0 0 3.14</pose>
       <uri>model://landing_green</uri>
     </include>
 
@@ -918,7 +918,7 @@
 
     <include>
       <name>landing_blue</name>
-      <pose>12 15.2 0.03 0 0 1.57</pose>
+      <pose>12.725 15.8 0.03 0 0 3.14</pose>
       <uri>model://landing_blue</uri>
     </include>
 
@@ -930,7 +930,7 @@
 
     <include>
       <name>landing_purple</name>
-      <pose>8.8 12 0.03 0 0 0</pose>
+      <pose>8.2 12.725 0.03 0 0 -1.57</pose>
       <uri>model://landing_purple</uri>
     </include>
 

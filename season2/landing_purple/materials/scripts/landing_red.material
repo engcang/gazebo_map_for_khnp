@@ -1,4 +1,4 @@
-material vrc/landing_yellow
+material vrc/landing_red
 {
 	receive_shadows off
 	technique
@@ -7,7 +7,7 @@ material vrc/landing_yellow
 		{
 			texture_unit
 			{
-				texture landing_yellow.png
+				texture landing_red.png
 				filtering anistropic
 				max_anisotropy 16
 				scale 1 1 
