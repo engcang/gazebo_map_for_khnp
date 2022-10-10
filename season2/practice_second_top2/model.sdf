@@ -65,11 +65,6 @@
 
 <!-- r3 -->
     <include>
-      <name>r1_2</name>
-      <pose>0.8 3.2 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>r2_2</name>
       <pose>2.4 3.2 0 0 0 0</pose>
       <uri>model://rubber_wire</uri>
@@ -102,11 +97,6 @@
     <include>
       <name>r8_2</name>
       <pose>12 3.2 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>r9_2</name>
-      <pose>13.6 3.2 0 0 0 0</pose>
       <uri>model://rubber_wire</uri>
     </include>
     <include>
@@ -167,24 +157,10 @@
       <pose>13.6 4.8 0 0 0 0</pose>
       <uri>model://rubber_wire</uri>
     </include>
-    <include>
-      <name>r10_3</name>
-      <pose>15.2 4.8 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>r11_3</name>
-      <pose>16.8 4.8 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
+
 
 
 <!-- r5 -->
-    <include>
-      <name>r1_4</name>
-      <pose>0.8 6.4 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
     <include>
       <name>r2_4</name>
       <pose>2.4 6.4 0 0 0 0</pose>
@@ -198,11 +174,6 @@
     <include>
       <name>r4_4</name>
       <pose>5.6 6.4 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>r5_4</name>
-      <pose>7.2 6.4 0 0 0 0</pose>
       <uri>model://rubber_wire</uri>
     </include>
     <include>
@@ -249,11 +220,6 @@
       <uri>model://rubber_wire</uri>
     </include>
     <include>
-      <name>r3_5</name>
-      <pose>4 8 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>r4_5</name>
       <pose>5.6 8 0 0 0 0</pose>
       <uri>model://rubber_wire</uri>
@@ -297,11 +263,6 @@
 
 <!-- r7 -->
     <include>
-      <name>r1_6</name>
-      <pose>0.8 9.6 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>r2_6</name>
       <pose>2.4 9.6 0 0 0 0</pose>
       <uri>model://rubber_wire</uri>
@@ -309,11 +270,6 @@
     <include>
       <name>r3_6</name>
       <pose>4 9.6 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>r4_6</name>
-      <pose>5.6 9.6 0 0 0 0</pose>
       <uri>model://rubber_wire</uri>
     </include>
     <include>
@@ -529,11 +485,6 @@
 
 <!-- r11 -->
     <include>
-      <name>r1_10</name>
-      <pose>0.8 16 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>r2_10</name>
       <pose>2.4 16 0 0 0 0</pose>
       <uri>model://rubber_wire</uri>
@@ -561,16 +512,6 @@
     <include>
       <name>r7_10</name>
       <pose>10.4 16 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>r8_10</name>
-      <pose>12 16 0 0 0 0</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>r9_10</name>
-      <pose>13.6 16 0 0 0 0</pose>
       <uri>model://rubber_wire</uri>
     </include>
     <include>
@@ -717,11 +658,6 @@
       <uri>model://rubber_wire</uri>
     </include>
     <include>
-      <name>c2_3</name>
-      <pose>3.2 4 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>c2_4</name>
       <pose>3.2 5.6 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
@@ -764,26 +700,6 @@
 
 <!-- c4 -->
     <include>
-      <name>c3_1</name>
-      <pose>4.8 0.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c3_2</name>
-      <pose>4.8 2.4 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c3_3</name>
-      <pose>4.8 4 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c3_4</name>
-      <pose>4.8 5.6 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>c3_5</name>
       <pose>4.8 7.2 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
@@ -801,21 +717,6 @@
     <include>
       <name>c3_8</name>
       <pose>4.8 12 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c3_9</name>
-      <pose>4.8 13.6 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c3_10</name>
-      <pose>4.8 15.2 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c3_11</name>
-      <pose>4.8 16.8 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
     </include>
 
@@ -865,16 +766,7 @@
       <pose>6.4 13.6 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
     </include>
-    <include>
-      <name>c4_10</name>
-      <pose>6.4 15.2 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c4_11</name>
-      <pose>6.4 16.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
+
 
 <!-- c6 -->
     <include>
@@ -885,11 +777,6 @@
     <include>
       <name>c5_2</name>
       <pose>8 2.4 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c5_3</name>
-      <pose>8 4 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
     </include>
     <include>
@@ -927,18 +814,9 @@
       <pose>8 15.2 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
     </include>
-    <include>
-      <name>c5_11</name>
-      <pose>8 16.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
+
 
 <!-- c7 -->
-    <include>
-      <name>c6_1</name>
-      <pose>9.6 0.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
     <include>
       <name>c6_2</name>
       <pose>9.6 2.4 0 0 0 1.57</pose>
@@ -960,21 +838,6 @@
       <uri>model://rubber_wire</uri>
     </include>
     <include>
-      <name>c6_6</name>
-      <pose>9.6 8.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c6_7</name>
-      <pose>9.6 10.4 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c6_8</name>
-      <pose>9.6 12 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>c6_9</name>
       <pose>9.6 13.6 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
@@ -984,18 +847,9 @@
       <pose>9.6 15.2 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
     </include>
-    <include>
-      <name>c6_11</name>
-      <pose>9.6 16.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
+
 
 <!-- c8 -->
-    <include>
-      <name>c7_1</name>
-      <pose>11.2 0.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
     <include>
       <name>c7_2</name>
       <pose>11.2 2.4 0 0 0 1.57</pose>
@@ -1012,16 +866,6 @@
       <uri>model://rubber_wire</uri>
     </include>
     <include>
-      <name>c7_5</name>
-      <pose>11.2 7.2 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c7_6</name>
-      <pose>11.2 8.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>c7_7</name>
       <pose>11.2 10.4 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
@@ -1029,11 +873,6 @@
     <include>
       <name>c7_8</name>
       <pose>11.2 12 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c7_9</name>
-      <pose>11.2 13.6 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
     </include>
     <include>
@@ -1049,31 +888,6 @@
 
 <!-- c9 -->
     <include>
-      <name>c8_1</name>
-      <pose>12.8 0.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c8_2</name>
-      <pose>12.8 2.4 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c8_3</name>
-      <pose>12.8 4 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c8_4</name>
-      <pose>12.8 5.6 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c8_5</name>
-      <pose>12.8 7.2 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>c8_6</name>
       <pose>12.8 8.8 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
@@ -1081,16 +895,6 @@
     <include>
       <name>c8_7</name>
       <pose>12.8 10.4 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c8_8</name>
-      <pose>12.8 12 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c8_9</name>
-      <pose>12.8 13.6 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
     </include>
     <include>
@@ -1121,16 +925,6 @@
       <uri>model://rubber_wire</uri>
     </include>
     <include>
-      <name>c9_4</name>
-      <pose>14.4 5.6 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c9_5</name>
-      <pose>14.4 7.2 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>c9_6</name>
       <pose>14.4 8.8 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
@@ -1138,11 +932,6 @@
     <include>
       <name>c9_7</name>
       <pose>14.4 10.4 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c9_8</name>
-      <pose>14.4 12 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
     </include>
     <include>
@@ -1163,11 +952,6 @@
 
 <!-- c11 -->
     <include>
-      <name>c10_1</name>
-      <pose>16 0.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>c10_2</name>
       <pose>16 2.4 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
@@ -1183,11 +967,6 @@
       <uri>model://rubber_wire</uri>
     </include>
     <include>
-      <name>c10_5</name>
-      <pose>16 7.2 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
       <name>c10_6</name>
       <pose>16 8.8 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
@@ -1195,11 +974,6 @@
     <include>
       <name>c10_7</name>
       <pose>16 10.4 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
-    <include>
-      <name>c10_8</name>
-      <pose>16 12 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
     </include>
     <include>
@@ -1212,11 +986,7 @@
       <pose>16 15.2 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
     </include>
-    <include>
-      <name>c10_11</name>
-      <pose>16 16.8 0 0 0 1.57</pose>
-      <uri>model://rubber_wire</uri>
-    </include>
+
 
 
 <!-- c1 -->
@@ -1274,6 +1044,53 @@
       <name>c0_11</name>
       <pose>17.6 16.8 0 0 0 1.57</pose>
       <uri>model://rubber_wire</uri>
+    </include>
+
+
+    <include>
+      <name>light1</name>
+      <pose>1.5 1.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light2</name>
+      <pose>1.5 9.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light3</name>
+      <pose>1.5 17.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light4</name>
+      <pose>9.5 1.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light5</name>
+      <pose>9.5 9.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light6</name>
+      <pose>9.5 17.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light7</name>
+      <pose>17.5 1.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light8</name>
+      <pose>17.5 9.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light9</name>
+      <pose>17.5 17.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
     </include>
 
 

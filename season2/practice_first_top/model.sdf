@@ -1013,5 +1013,51 @@
     </include>
 
 
+    <include>
+      <name>light1</name>
+      <pose>1.5 1.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light2</name>
+      <pose>1.5 9.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light3</name>
+      <pose>1.5 17.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light4</name>
+      <pose>9.5 1.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light5</name>
+      <pose>9.5 9.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light6</name>
+      <pose>9.5 17.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light7</name>
+      <pose>17.5 1.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light8</name>
+      <pose>17.5 9.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+    <include>
+      <name>light9</name>
+      <pose>17.5 17.5 2.3 0 0 0</pose>
+      <uri>model://light_bulb</uri>
+    </include>
+
   </model>
 </sdf>

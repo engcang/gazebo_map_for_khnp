@@ -1076,5 +1076,96 @@
       <uri>model://practice_second_top2</uri>
     </include>
 
+
+
+
+    <include>
+      <name>elecbox1</name>
+      <pose>0 15 1.2 0 0 0</pose>
+      <uri>model://elecbox</uri>
+    </include>
+
+    <include>
+      <name>elecbox2</name>
+      <pose>17.6 15.45 1.2 0 0 3.14</pose>
+      <uri>model://elecbox2</uri>
+    </include>
+
+
+    <include>
+      <name>elecbox3</name>
+      <pose>3.2 10.2 1.2 0 0 0</pose>
+      <uri>model://elecbox2</uri>
+    </include>
+
+    <include>
+      <name>elecbox4</name>
+      <pose>17.5 7.3 1.2 0 0 3.14</pose>
+      <uri>model://elecbox</uri>
+    </include>
+
+
+    <include>
+      <name>elecbox5</name>
+      <pose>5.3 17.65 1.2 0 0 -1.57</pose>
+      <uri>model://elecbox2</uri>
+    </include>
+    <include>
+      <name>elecbox6</name>
+      <pose>8 13.4 1.2 0 0 0</pose>
+      <uri>model://elecbox2</uri>
+    </include>
+
+    <include>
+      <name>elecbox7</name>
+      <pose>10.1 17.65 1.2 0 0 -1.57</pose>
+      <uri>model://elecbox</uri>
+    </include>
+
+    <include>
+      <name>elecbox8</name>
+      <pose>9.6 3.8 1.2 0 0 0</pose>
+      <uri>model://elecbox</uri>
+    </include>
+
+
+    <include>
+      <name>elecbox9</name>
+      <pose>14.3 10.5 1.2 0 0 3.14</pose>
+      <uri>model://elecbox2</uri>
+    </include>
+
+
+    <include>
+      <name>elecbox10</name>
+      <pose>5.9 0 1.2 0 0 1.57</pose>
+      <uri>model://elecbox</uri>
+    </include>
+
+    <include>
+      <name>elecbox11</name>
+      <pose>5.9 6.4 1.2 0 0 1.57</pose>
+      <uri>model://elecbox2</uri>
+    </include>
+
+
+    <include>
+      <name>elecbox12</name>
+      <pose>14.4 13.85 1.2 0 0 3.14</pose>
+      <uri>model://elecbox</uri>
+    </include>
+
+    <include>
+      <name>elecbox13</name>
+      <pose>11.2 10.5 1.2 0 0 3.14</pose>
+      <uri>model://elecbox2</uri>
+    </include>
+
+    <include>
+      <name>elecbox14</name>
+      <pose>8 13.85 1.2 0 0 3.14</pose>
+      <uri>model://elecbox</uri>
+    </include>
+
   </model>
 </sdf>
