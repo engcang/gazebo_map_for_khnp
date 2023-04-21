@@ -1,6 +1,6 @@
 # Gazebo map for KHNP's KVRC competition
 + Season 1 - [map](https://youtu.be/6oXx2bvzU9Y), [github](https://github.com/Woojin-Seol/KVRC2021)
-+ Season 2 - pending
++ Season 2 - [map](https://youtu.be/usKW3UG9wpc), [github](https://github.com/Woojin-Seol/KVRC2022)
 
 ## How to use
 + Clone the git
